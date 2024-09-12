@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import "./App.css";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import HeaderImg from "./components/Header/HeaderImg";
