@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Young-Serif"; /* Matches tailwind.config.js */
+  src: url("/src/assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Variable";
+  src: url("/src/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900; /* Range of weights for variable fonts */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Black";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Bold";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-ExtraBold";
+  src: url("/src/assets/fonts/outfit/static/Outfit-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-ExtraLight";
+  src: url("/src/assets/fonts/outfit/static/Outfit-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Light";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Medium";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Regular";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-SemiBold";
+  src: url("/src/assets/fonts/outfit/static/Outfit-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit-Thin";
+  src: url("/src/assets/fonts/outfit/static/Outfit-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
